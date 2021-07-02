@@ -1,0 +1,208 @@
+/* website */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    /* background-color: ; */
+}
+
+@font-face {
+    font-family: nats;
+    src: url(Assets/NATS-Regular.ttf);
+}
+
+
+/* navbar */
+
+.navigasi {
+    background-color: #000C44;
+    display: flex;
+}
+
+.image-nav {
+    width: 25%;
+    margin: 10px;
+}
+
+.atas-kanan-nav {
+    margin-left: auto;
+    margin-top: 3%;
+}
+
+.atas-kanan-nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: nats;
+}
+
+
+/* carousel head */
+
+.carousel-atas {
+    width: 100%;
+    height: auto;
+}
+
+
+/* content */
+
+.content {
+    background-color: #000C44;
+    padding: 50px;
+}
+
+.content-box {
+    display: inline-flex;
+}
+
+.content-kiri {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.content-kiri h1 {
+    color: white;
+}
+
+.content-tengah {
+    height: 500px;
+    border: 3px solid white;
+    width: 1px;
+}
+
+.content-kanan {
+    color: white;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.expand-content-bawah {
+    height: 100px;
+    width: 100%;
+}
+
+
+/* event */
+
+.row {
+    width: 100%;
+}
+
+.col-sm-6 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.card {
+    border-radius: 30px;
+}
+
+.card img {
+    border-radius: 30px 30px 0 0;
+}
+
+.event-title {
+    text-align: center;
+    color: #000C44;
+}
+
+.event-hr {
+    border-bottom: 3px solid #000C44;
+    width: 20%;
+}
+
+.title-event-line {
+    padding-top: 2rem;
+}
+
+.background-event {
+    margin-top: -90px;
+    background-color: white;
+    border-color: rgba(255, 255, 255, 0.411);
+    /* border */
+    border-radius: 90px 90px 0 0;
+}
+
+
+/* team */
+
+.team-title {
+    color: #000C44;
+    text-align: center;
+}
+
+.img-team-card {
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+    margin-top: -50px;
+}
+
+.team-card-box {
+    margin-top: 5rem;
+}
+
+.team-card-1 {
+    display: flex;
+    padding: 2rem;
+}
+
+.card-rounded-shape {
+    border-radius: 90px;
+    width: 100%;
+    height: 100%;
+    background-color: #000729;
+    margin-right: 50px;
+}
+
+.team-card-information {
+    color: white;
+    font-size: 2rem;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-align: justify;
+}
+
+.expand-team-card {
+    height: 50px;
+}
+
+.team-card-box {
+    margin-bottom: 50px;
+}
+
+
+/* footer */
+
+.footer-web {
+    background-image: url(Assets/8.png);
+    padding-top: 30px;
+}
+
+hr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.copyright {
+    margin-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+.logoFooter {
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
